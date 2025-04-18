@@ -31,6 +31,7 @@ To run this webpage locally, follow these steps:
 #### Clone the Repository  
 ```sh
 git clone https://github.com/vickyy234/Calculator-Bootstrap.git
+``` 
 
 #### Navigate to the Project Directory
 ```sh
