@@ -18,7 +18,7 @@ function App() {
 
   const handleCalculate = () => {
     try {
-      setInput(eval(input))
+      setInput(eval(input).toString())
     } catch (error) {
       setInput("Error")
       setTimeout(() => {
@@ -30,7 +30,7 @@ function App() {
   return (
     <div className='container text-center'>
       <h1 className='my-5 fw-bold text-primary'>Calculator</h1>
-      <div className='card p-4 shadow-lg mx-auto' style={{ maxWidth: '450px', backgroundColor: '#f8f9fa' }}>
+      <div className='card p-4 shadow-lg mx-auto' style={{ maxWidth: '450px', backgroundColor: "#979090" }}>
         <input type="text"
           className='form-control text-end mb-4 fs-1 fw-semibold rounded-4'
           value={input}
