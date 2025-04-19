@@ -14,8 +14,6 @@ This is a simple and elegant calculator built using **React** and **Bootstrap 5*
 
 ---
 
----
-
 ## Tech Stack
 
 - [React](https://react.dev/)
@@ -24,44 +22,12 @@ This is a simple and elegant calculator built using **React** and **Bootstrap 5*
 
 ---
 
-## Setup Instructions  
-
-To run this webpage locally, follow these steps:  
-
-#### Clone the Repository  
-```sh
-git clone https://github.com/vickyy234/Calculator-Bootstrap.git
-``` 
-
-#### Navigate to the Project Directory
-```sh
-cd Calculator-Bootstrap
-```
-
-#### Install Dependencies
-```sh
-npm install
-```
-
-#### *Or*
-```sh
-npm i
-```
-
-#### Start the Development Server
-```sh
-npm run dev
-```
-
-#### Open in Browser
-```sh
-http://localhost:5173
-```
-
 ## Live Preview
 
 The website is live and accessible here:
 [Link Here](https://calculator-bootstrap.vercel.app/)
+
+---
 
 ## License
 
