@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -26,6 +26,27 @@ function App() {
       }, 1500)
     }
   }
+
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      const key = event.key
+
+      if (!isNaN(key) || key === ".") {
+        handleClick(key)
+      } else if (["+", "-", "*", "/"].includes(key)) {
+        handleClick(key)
+      } else if (key === "Enter" || key === "=") {
+        handleCalculate()
+      } else if (key === "Backspace") {
+        handleBackspace()
+      } else if (key === "Escape" || key === "c") {
+        handleClear()
+      }
+    }
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [input])
 
   return (
     <div className='container text-center'>
