@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className="container py-5 d-flex flex-column align-items-center justify-content-center min-vh-100 bg-light">
-      <h1 className="mb-4 fw-bold text-primary">React Calculator</h1>
+      <h1 className="mb-4 fw-bold text-primary">Calculator</h1>
       <div className="card shadow-lg p-4" style={{ maxWidth: '400px', width: '100%' }}>
         <input
           type="text"
